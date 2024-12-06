@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(nikebackround.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.input-group {
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type="email"], 
+input[type="password"] {
+    width: 93%;
+    padding: 0.75em;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    background: white;
+    color: black;
+}
+
+button {
+    background-color: #6a6767;
+    color: white;
+    border: none;
+    padding: 0.75em;    
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}

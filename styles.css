@@ -1,0 +1,195 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    }
+    
+
+    header {
+    background: linear-gradient(45deg, #f4dc03, #ff0101, #127a0b);
+    color: white;
+    padding: 20px;
+    text-align: center; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    header h1 {
+        text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Segoe UI', sans-serif;
+    }
+    
+    nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin-right: 15px;
+    }
+    
+    nav ul li a {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+    color: #333;
+    border-bottom: 2px solid white;
+    }
+    
+    /* Main Section Styling */
+    main {
+    padding: 30px;
+    text-align: center;
+    }
+    
+    .welcome {
+    margin-bottom: 350px;
+    }
+    
+    .welcome h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    .welcome p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.5;
+    }
+    
+    /* Shop Section */
+    .shop {
+    margin-top: 40px;
+    }
+    
+    .shop h2 {
+    font-size: 3em;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+    
+    .price-section {
+    margin-bottom: 50px;
+    }
+    
+    .price-section h3 {
+    font-size: 2em;
+    color: #040000;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    }
+    
+    .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    justify-content: center;
+    }
+    
+    .product {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    }
+    
+    .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    }
+    
+    .product p {
+    font-size: 1.1em;
+    color: #333;
+    }
+    
+    .product p:first-of-type {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    }
+    
+    .product p:last-of-type {
+        color: #33ff00;
+        font-size: 1.2em;
+        font-weight: bold;
+
+    
+    }
+    /* Hover Effect on Products */
+
+    
+    /* About Section */
+    .about {
+    background: #FF6600;
+    color: white;
+    padding: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    }
+    
+    .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    }
+    
+    .about p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: #f4f4f4;
+    }
+    
+    /* Contact Section */
+    .contact {
+    background: linear-gradient(45deg, #f4dc03, #ff0101, #127a0b);
+    color: white;
+    padding: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    }
+    
+    .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    }
+    
+    .contact p {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: #f4f4f4;
+    }
+    
+    /* Footer Styling */
+    footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.1em;
+    }
+    
+    footer p {
+    margin: 0;
+    }
+    
